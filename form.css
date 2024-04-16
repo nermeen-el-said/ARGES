@@ -1,0 +1,393 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    line-height: 20px;
+}
+/* navbar */
+.navbar{
+    background-color:whitesmoke;
+    color: black;
+    overflow: auto;
+    justify-content: space-evenly;
+}
+.navbar h3 p {
+    font-size: x-large;
+    margin-left: -50px;
+    padding-bottom: 10px;
+}
+ .navbar h3{
+    padding-top: 20px;
+    float: left;
+    margin-left: 100px 
+    
+}
+.navbar a{
+    color: black;
+    text-decoration: none;
+    margin-right: 70px;
+}
+.navbar ul{
+    float: right;
+    list-style: none;
+}
+.navbar ul li {
+    display: inline-block;
+}
+.navbar ul li a{
+    padding: 14px;
+    text-align: center;
+    display: block;
+}
+.navbar a:hover {
+color: rgb(34, 190, 86);
+}
+/* part-one */
+.first img {
+    width: 100%;
+    height: 350px;
+}
+.imge1{
+    text-align: center;
+    margin-top: -300px;
+}
+.welcome{
+    color: #efedf1;
+    font-size: xx-large;
+}
+.we{
+    color:#efedf1 ;
+    font-size: large;
+    padding: 50px;
+}
+.b1{
+    background-color: #3f7805;
+    color: #efedf1;
+    width: 150px;
+    height: 45px;
+}
+.b2{
+    width: 150px;
+    height: 45px;
+}
+ /* head one  */
+.onee{
+    text-align: center;
+    font-size: xx-large;
+    margin-top: 150px;
+     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+} 
+/*  part two */
+ .boxs{
+     /* background: #07070738;  */
+     display: flex;
+     width: 1000px;
+     height: 300px;
+     margin-left: 100px;
+     margin-top: 50px;
+}
+ .boxs img{
+    width: 314px;
+    height: 200px;
+    display: flex;
+}
+  .box1{
+    width: 800px;
+    height: 300px;
+     margin: 10px; 
+    box-shadow: 1px 0 10px #28256e;
+     align-items: center;
+    justify-content: center;
+    text-align:center; 
+   background-color: #1c3e57;
+}
+ .box2{
+    width: 800px;
+    height: 300px;
+     margin: 10px; 
+    box-shadow: 1px 0 10px #28256e;
+   background-color: #1c3e57;
+}
+.box3{
+    width: 800px;
+    height: 300px;
+     margin: 10px; 
+    box-shadow: 1px 0 10px #28256e;
+   background-color: #1c3e57;
+}
+.boxs p,h2 {
+    margin-top: 10px;
+    margin-left: 5px;
+    color: aliceblue;
+}
+/* head two */
+.twoo{
+    text-align: center;
+    font-size: xx-large;
+    margin-top: 100px;
+     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+} 
+/* part three */
+.boxss {
+    /* background: #1c3e57; */
+    display: flex;
+    width: 1000px;
+    height: 300px;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+.box11{
+    width: 800px;
+    height: 200px;
+    margin: 10px;
+    border-style:ridge;
+    border-color: #07070738;
+}
+.box22{
+    width: 800px;
+    height: 200px;
+    margin: 10px;
+    border-style:ridge;
+    border-color: #07070738;
+    background-color: #015a39;
+}
+.box33{
+    width: 800px;
+    height: 200px;
+    margin: 10px;
+    border-style:ridge;
+    border-color: #07070738;
+}
+.box44{
+    width: 800px;
+    height: 200px;
+    margin: 10px;
+    border-style:ridge;
+    border-color: #07070738;
+}
+.boxss i{
+    font-size: xx-large;
+    margin-left: 80px;
+    margin-top: 30px;
+    height: 30px;
+}
+.boxss h3{
+    margin-left: 20px;
+}
+.boxss p{
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.boxss button{
+    margin-left: 50px;
+    margin-top: 10px;
+    background-color: aliceblue;
+    width: 130px;
+    height: 30px;
+    border-radius: 20px;
+}
+/* part four */
+ .four{
+width: 100%;
+height: 250px;
+background-color: #1c3e57;
+color: aliceblue;
+display: inline-block;
+}
+.four h1{
+    padding: 30px;
+    display:inline;
+    margin-bottom:20px;
+}
+.four p{
+    padding: 20px;
+    display: inline-block
+}
+.four input{
+    width: 350px;
+    height: 50px;
+}
+.four button{
+    width: 150px;
+    height: 50px;
+    background-color: #61bd9c;
+    color: aliceblue;
+} 
+.four {
+    display: inline-block;
+}
+/* head three */
+.threee{
+    text-align: center;
+    font-size: xx-large;
+    margin-top: 50px;
+     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+} 
+/* the end */
+.end{
+    /* background: #07070738;  */
+    display: flex;
+    width: 1000px;
+    height: 300px;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+.end img{
+   width: 314px;
+   height: 200px;
+   display: flex;
+}
+ .content1{
+   width: 800px;
+   height: 250px;
+    margin: 10px; 
+   box-shadow: 1px 0 10px #28256e;
+    align-items: center;
+   justify-content: center;
+   text-align:center; 
+  background-color: #1c3e57;
+}
+.content2{
+    width: 800px;
+    height: 250px;
+     margin: 10px; 
+    box-shadow: 1px 0 10px #28256e;
+   background-color: #1c3e57;
+}
+.content3{
+    width: 800px;
+    height: 250px;
+     margin: 10px; 
+    box-shadow: 1px 0 10px #28256e;
+   background-color: #1c3e57;
+}
+.end h1 {
+     margin-top: 15px;
+    margin-left: 10px; 
+    color: aliceblue;
+}
+/* media queries */
+ @media (max-width:500px) {
+    .onee{
+        margin-left: -50px;
+    }
+    .boxs{
+        display: inline-block;
+        margin-left: -5px;
+   }
+  .box1{
+    width: 314px;
+}
+.box2{
+    width: 314px;
+}
+.box3{
+    width: 314px;
+}
+ .twoo{
+    margin-left: -50px; 
+}
+.boxss{
+display: inline-block;
+}
+.box11{
+    width: 200px;
+}
+.box22{
+    width: 200px;
+}
+.box33{
+    width: 200px;
+}
+.box44{
+    width: 200px;
+}
+.four{
+    width: 80%;
+    height: 500px;
+    margin-top: 150px;
+    margin-left: 10px;
+    }
+.four input{
+        width: 300px;
+        height: 50px;
+        margin-top: 10px;
+    }
+.four button{
+    margin-top: 10px;
+}
+.three{
+    margin-left: -50px;
+}
+.end{
+    display: inline-block;
+    margin-left: -5px;
+}
+.content1{
+    width: 314px;
+}
+.content2{
+    width: 314px;
+}
+.content3{
+    width: 314px;
+}
+}
+@media (max-width:900px) {
+    .boxs{
+        display: inline-block;
+        
+   }
+  .box1{
+    width: 314px;
+}
+.box2{
+    width: 314px;
+}
+.box3{
+    width: 314px;}
+    .boxss{
+    display: inline-block;
+    }
+    .box11{
+        width: 300px;
+    }
+    .box22{
+        width: 300px;
+    }
+    .box33{
+        width: 300px;
+    }
+    .box44{
+        width: 300px;
+    }
+    .four{
+        width: 80%;
+        height: 500px;
+        margin-top: 150px;
+        margin-left: 10px;
+        }
+    .four input{
+            width: 400px;
+            height: 50px;
+            margin-top: 10px;
+        }
+    .four button{
+        margin-top: 10px;
+    }
+    .end{
+        display: inline-block;
+    }
+    .content1{
+        width: 314px;
+    }
+    .content2{
+        width: 314px;
+    }
+    .content3{
+        width: 314px;
+    }    
+    }
